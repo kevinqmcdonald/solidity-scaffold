@@ -22,10 +22,8 @@ jobs:
         node-version: '14.x'
         cache: 'yarn'
     - name: Install dependencies
-      run: yarn
-    - name: Copy contract ABIs
-      run: yarn workspace @scaffold-eth/react-app prestart
+      run: yarn && yarn workspace @scaffold-eth/react-app prestart
     - name: Build
-      run: npm run build
+      run: npm run prettier && npm run build
     - name: Test
       run: npm run react-app:test
