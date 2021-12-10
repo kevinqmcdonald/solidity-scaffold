@@ -23,5 +23,9 @@ jobs:
         cache: 'yarn'
     - name: Install dependencies
       run: yarn
-    - run: npm run build
-    - run: npm run react-app:test
+    - name: Copy contract ABIs
+      run: yarn workspace @scaffold-eth/react-app prestart
+    - name: Build
+      run: npm run build
+    - name: Test
+      run: npm run react-app:test
