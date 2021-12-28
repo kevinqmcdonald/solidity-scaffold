@@ -3,6 +3,10 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom";
+import { Crypto } from "@peculiar/webcrypto";
+
+// https://github.com/jsdom/jsdom/issues/1612
+global.crypto = new Crypto();
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
@@ -17,3 +21,5 @@ Object.defineProperty(window, 'matchMedia', {
     dispatchEvent: jest.fn(),
   })),
 });
+
+
