@@ -2259,10 +2259,10 @@
     pocket-js-core "0.0.3"
     web3-provider-engine "16.0.1"
 
-"@ramp-network/ramp-instant-sdk@^2.2.0":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@ramp-network/ramp-instant-sdk/-/ramp-instant-sdk-2.4.6.tgz#9cd5827cdbb4350be5c68a8a81620b3c16a916d5"
-  integrity sha512-9L3X9dVZnFCqnBFG3FjfeQSkj+Zk/O7ABIH2p6iKmShCfMXNFOxFVSS6AxZUyWZ1vazMbi/DvdnOaG21KHC3MA==
+"@ramp-network/ramp-instant-sdk@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ramp-network/ramp-instant-sdk/-/ramp-instant-sdk-3.0.0.tgz#b4553d80563f98952ef28df42d266ca2d3fe53a9"
+  integrity sha512-wkP87bkTabPs6VPeuRe4tVB1M4NF5NdhgkglExC38LYZXOmyfw0UF5MVpLiIAezUDiDqOhzgBnJxX3QvbeS2kA==
   dependencies:
     body-scroll-lock "^2.6.4"
 
