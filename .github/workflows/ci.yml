@@ -24,6 +24,6 @@ jobs:
     - name: Install dependencies
       run: yarn && yarn workspace @scaffold-eth/react-app prestart
     - name: Build
-      run: npm run prettier && npm run build
+      run: yarn run prettier && yarn run build
     - name: Test
-      run: npm run react-app:test
+      run: yarn run react-app:test
