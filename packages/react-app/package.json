@@ -61,7 +61,7 @@
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.2",
     "chalk": "^4.1.0",
-    "eslint": "^7.5.0",
+    "eslint": "^8.10.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-babel": "^5.3.1",
