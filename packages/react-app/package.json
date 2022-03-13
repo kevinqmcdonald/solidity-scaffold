@@ -60,7 +60,7 @@
     "@testing-library/dom": "^8.11.1",
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.2",
-    "chalk": "^4.1.0",
+    "chalk": "^5.0.1",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^8.3.0",
